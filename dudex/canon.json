@@ -1,23 +1,34 @@
 {
   "canon_version": "1.0",
-  "note": "This is a template canon.json file. It will be replaced during generation with the actual build specification.",
+  "description": "a responsive next.js dashboard with charts, authentication, and user management features.",
+  "features": [
+    "api",
+    "authentication",
+    "charts",
+    "user_management"
+  ],
+  "pages": [
+    "dashboard",
+    "home",
+    "login",
+    "settings",
+    "users"
+  ],
   "project": {
-    "name": "Template Project",
-    "type": "web_app",
     "framework": "nextjs",
-    "language": "typescript"
-  },
-  "description": "Template project structure for DUDE X Builder",
-  "features": [],
-  "pages": [],
-  "styling": {
-    "framework": "tailwind"
+    "language": "typescript",
+    "name": "dashboard",
+    "type": "web_app"
   },
   "requirements": {
-    "seo": true,
-    "analytics": false,
+    "accessibility": true,
+    "analytics": true,
+    "performance": "high",
     "responsive": true,
-    "accessibility": true
+    "seo": true
+  },
+  "styling": {
+    "color_scheme": "blue",
+    "framework": "tailwind"
   }
 }
-
